@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "extension/wc-usaepay-payment-gateway",
+	"version": "4.2.0",
+	"title": "Payment Gateway for USAePay on WooCommerce",
+	"category": "widgets",
+	"textdomain": "wc-usaepay",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

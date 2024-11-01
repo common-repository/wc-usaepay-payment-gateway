@@ -1,0 +1,499 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Gateway for USAePay on WooCommerce\n"
+"POT-Creation-Date: 2024-08-19 21:38-0700\n"
+"PO-Revision-Date: 2024-08-14 20:43+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gateway.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: gateway.php:94
+msgid "Settings"
+msgstr ""
+
+#: gateway.php:95
+msgid "Support"
+msgstr ""
+
+#: gateway.php:166
+#, php-format
+msgid ""
+"Need a new merchant account, or looking to lower your processing fees? <a "
+"href=\"%s\" target=\"_blank\">Discuss your requirements with us.</a>"
+msgstr ""
+
+#: gateway.php:171
+#, php-format
+msgid ""
+"USAePay is almost ready. To get started, <a href=\"%s\">set your USAePay "
+"account keys</a>."
+msgstr ""
+
+#: gateway.php:209
+#, php-format
+msgid ""
+"WooCommerce USAePay - The minimum PHP version required for this plugin is "
+"%1$s. You are running %2$s."
+msgstr ""
+
+#: gateway.php:214
+msgid "WooCommerce USAePay requires WooCommerce to be activated to work."
+msgstr ""
+
+#: gateway.php:218
+#, php-format
+msgid ""
+"WooCommerce USAePay - The minimum WooCommerce version required for this "
+"plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: gateway.php:223
+msgid "WooCommerce USAePay - cURL is not installed."
+msgstr ""
+
+#: gateway.php:306
+msgid "Unable to capture charge!"
+msgstr ""
+
+#: gateway.php:308
+#, php-format
+msgid "USAePay charge complete (Charge ID: %s)"
+msgstr ""
+
+#: gateway.php:347
+msgid "Unable to refund charge!"
+msgstr ""
+
+#: gateway.php:349
+#, php-format
+msgid "USAePay charge refunded (Charge ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:35
+#: includes/class-wc-usaepay-privacy.php:13
+msgid "USAePay"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:36
+#, php-format
+msgid ""
+"Live merchant accounts cannot be used in a sandbox environment, so to test "
+"the plugin, please make sure you are using a separate sandbox account. If "
+"you do not have a sandbox account, you can sign up for one from %shere%s."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:62
+#, php-format
+msgid ""
+"<br /><br /><strong>TEST MODE ENABLED</strong><br /> In test mode, you can "
+"use the card number 4111111111111111 with any CVC and a valid expiration "
+"date or check the documentation \"<a href=\"%s\">%s API</a>\" for more card "
+"numbers."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:111
+#, php-format
+msgid "USAePay error: Please enter your Source Key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:114
+#, php-format
+msgid "USAePay error: Please enter your Pin <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:120
+msgid ""
+"USAePay error: Your Source Key and Pin match. Please check and re-enter."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:125
+msgid "USAePay supports only USD currency."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:131
+#, php-format
+msgid ""
+"USAePay is enabled, but a SSL certificate is not detected. Your checkout may "
+"not be secure! Please ensure your server has a valid <a href=\"%1$s\" "
+"target=\"_blank\">SSL certificate</a>"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:162
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:163
+msgid "Enable USAePay"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:169
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:171
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:172
+msgid "Credit card (USAePay)"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:175
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:177
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:178
+msgid "Pay with your credit card via USAePay."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:181
+msgid "Sandbox mode"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:182
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:184
+#, php-format
+msgid ""
+"Check the USAePay testing guide %shere%s. This will display \"sandbox mode\" "
+"warning on checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:188
+msgid "Source Key"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:190
+msgid "Create one from Settings -> Source Keys in your USAePay account."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:194
+msgid "Pin"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:196
+msgid "Enter your Pin associated with the source key."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:200
+msgid "Statement Descriptor"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:202
+msgid ""
+"Extra information about a charge. This will appear in your order "
+"description. Defaults to site name."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:207
+msgid "Capture"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:208
+msgid "Capture charge immediately"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:210
+msgid ""
+"Whether or not to immediately capture the charge. When unchecked, the charge "
+"issues an authorization and will need to be captured later."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:214
+msgid "Logging"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:215
+msgid "Log debug messages"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:217
+#, php-format
+msgid ""
+"Save debug messages to the WooCommerce System Status log file <code>%s</"
+"code>."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:221
+msgid "Gateway Debug"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:222
+msgid "Log gateway requests and response to the WooCommerce System Status log."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:224
+msgid ""
+"<strong>CAUTION! Enabling this option will write gateway requests possibly "
+"including card numbers and CVV to the logs.</strong> Do not turn this on "
+"unless you have a problem processing credit cards. You must only ever enable "
+"it temporarily for troubleshooting or to send requested information to the "
+"plugin author. It must be disabled straight away after the issues are "
+"resolved and the plugin logs should be deleted."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:224
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to check and delete the full log file."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:228
+msgid "Line Items"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:229
+msgid "Enable Line Items"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:231
+msgid "Add line item data to description sent to the gateway (eg. Item x qty)."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:235
+msgid "Allowed Card types"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:238
+msgid "Select the card types you want to allow payments from."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:246
+#: includes/class-wc-usaepay-blocks-support.php:145
+msgid "Visa"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:247
+msgid "MasterCard"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:248
+msgid "Discover"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:249
+#: includes/class-wc-usaepay-blocks-support.php:157
+msgid "American Express"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:250
+#: includes/class-wc-usaepay-blocks-support.php:171
+msgid "JCB"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:251
+msgid "Diners Club"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:255
+msgid "Receipt"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:256
+msgid "Send Gateway Receipt"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:258
+msgid "If enabled, the customer will be sent an email receipt from USAePay."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:282
+msgid "Enter a card number."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:283
+msgid "Enter an expiry date."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:284
+msgid "CVC code is required."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:285
+msgid "Invalid card number."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:286
+msgid "Invalid card expiry date."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:287
+msgid "Invalid card CVC."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:288
+msgid "CVC"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:289
+msgid "MM / YY"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:290
+msgid "Card Type Not Accepted."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:310
+msgid "Credit card details cannot be left incomplete."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:315
+#, php-format
+msgid ""
+"Card type being used is not one of supported types in plugin settings: %s"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:316
+msgid "Card Type Not Accepted"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:322
+#, php-format
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:387
+#, php-format
+msgid "USAePay charge complete (Charge ID: %s) %s %s"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:401
+#, php-format
+msgid ""
+"USAePay charge authorized (Charge ID: %s). Process order to take payment, or "
+"cancel to remove the pre-authorization. %s %s"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:422
+#: includes/class-wc-gateway-usaepay.php:423
+#, php-format
+msgid "Gateway Error: %s"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:426
+#, php-format
+msgid "USAePay failure reason: %s %s %s"
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:475
+msgid "There was an error with the gateway response."
+msgstr ""
+
+#: includes/class-wc-gateway-usaepay.php:521
+#, php-format
+msgid "Refunded %s - Refund ID: %s - Reason: %s"
+msgstr ""
+
+#: includes/class-wc-usaepay-blocks-support.php:131 src/index.js:29
+msgid "Credit / Debit Card"
+msgstr ""
+
+#: includes/class-wc-usaepay-blocks-support.php:151
+msgid "Mastercard"
+msgstr ""
+
+#: includes/class-wc-usaepay-blocks-support.php:165
+msgctxt "Name of credit card"
+msgid "Discover"
+msgstr ""
+
+#: includes/class-wc-usaepay-blocks-support.php:177
+msgid "Diners"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:15
+msgid "WooCommerce USAePay Order Data"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:16
+msgid "WooCommerce USAePay Data"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:30
+msgid "Retain USAePay Data"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:31
+msgid "Retains USAePay data such as USAePay customer ID, charge ID."
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:34
+msgid "N/A"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:76
+#, php-format
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service. <a href=\"%s\" target=\"_blank\">Learn more about "
+"how this works, including what you may want to include in your privacy "
+"policy.</a>"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:99
+msgid "Orders"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:103
+msgid "USAePay payment id"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:164
+#, php-format
+msgid ""
+"Order ID %d is less than set retention days. Personal data retained. "
+"(USAePay)"
+msgstr ""
+
+#: includes/class-wc-usaepay-privacy.php:174
+msgid "USAePay personal data erased."
+msgstr ""
+
+#: src/index.js:135
+msgid "USAePay payment method"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Payment Gateway for USAePay on WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://pledgedplugins.com/products/usaepay-payment-gateway-woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A payment gateway for USAePay. An USAePay account and a server with cURL, "
+"SSL support, and a valid SSL certificate is required (for security reasons) "
+"for this gateway to function. Requires WC 3.3+"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pledged Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pledgedplugins.com"
+msgstr ""
